@@ -34,7 +34,7 @@ The AI-Based Smart Visitor System is a real-time security application that ident
 ---
 
 ## 📂 Project Structure
-
+```text
 SmartVisitorSecuritySystem/
 │
 ├── alert_desktop.py          # Desktop notification alerts
