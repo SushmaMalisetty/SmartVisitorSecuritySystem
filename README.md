@@ -35,20 +35,22 @@ The AI-Based Smart Visitor System is a real-time security application that ident
 
 ## 📂 Project Structure
 
-martVisitorSecuritySystem/
+SmartVisitorSecuritySystem/
 │
-├── alert_desktop.py # Desktop alert notifications
-├── antispoof.py # Anti-spoofing logic
-├── delete_dataset.py # Delete stored face data
-├── embeddings.py # Face embedding generation
-├── face_capture.py # Capture face images
-├── face_recognition_live.py # Live recognition & alerts
-├── recognizer.py # Face matching logic
-├── requirements.txt # Dependencies
-├── README.md # Project documentation
-├── dataset/
-│ └── .gitkeep # Keeps empty dataset folder
-└── .gitignore
+├── alert_desktop.py          # Desktop notification alerts
+├── antispoof.py              # Anti-spoofing (fake face detection)
+├── delete_dataset.py         # Delete stored face datasets
+├── embeddings.py             # Face feature extraction
+├── face_capture.py           # Capture face images for dataset
+├── face_recognition_live.py  # Live face recognition + alerts
+├── recognizer.py             # Face matching and recognition logic
+│
+├── dataset/                  # Face image dataset (ignored in GitHub)
+│   └── .gitkeep              # Keeps empty dataset folder
+│
+├── requirements.txt          # Project dependencies
+├── .gitignore                # Ignore venv, cache, dataset images
+└── README.md                 # Project documentation
 
 
 ---
